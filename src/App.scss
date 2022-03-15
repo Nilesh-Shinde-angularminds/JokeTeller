@@ -1,0 +1,198 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+
+ 
+  // text-align: center;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.OuterBorder
+{
+  margin: 100px 100px 0 100px;
+  background-color: black;
+  border:2px solid white;
+}
+.OuterBorder2
+{
+  // margin: 100px;
+  min-height: 100px;
+  margin-bottom: 100px;
+  overflow-y: auto;
+  background-color: black;
+  border:2px solid white;
+}
+.border2
+{
+  margin:10px;
+  background-color: black;
+  border:2px solid white;
+  overflow-x: auto;
+}
+.white
+{
+  color:white;
+}
+.inputContainer
+{
+  border: 2px solid white;
+  margin:20px;
+  padding:2px;
+  border-radius:5px;
+}
+.inputContainer2
+{
+  padding-top: 25px;
+  // border: 2px solid white;
+}
+.gray
+{
+    color:#aaa
+}
+.redBorder
+{
+  border:2px solid red
+}
+.autoWidth
+{
+  width:100%
+}
+.length1
+{
+  width:80px;
+}
+.hide
+{
+  display: none;
+}
+.showMore
+{
+  width:100px;
+  background-Color:gray;
+}
+// .outerDiv
+// {position: absolute;
+//   background-color: black;
+//   height: 1000px;
+//   width:100%;
+
+
+//     div{
+//         margin:100px 100px 100px 100px ;
+//         position:relative;
+//         background-color:black;
+//         height: 800px;
+//         border: white solid 2px;
+//         width: 1200px;
+//         border-radius: 5px;
+//         overflow-y: scroll;
+
+
+//         .div20
+//         {
+//           position: relative;
+//           color: white;
+//           height: 60px;
+//           width: 300px;
+//          background-color: black; 
+//          display:flex;
+//          float: left;
+//          text-align: center;
+//          margin:10px;
+//          font-size: 20px;
+//          border-radius: 5px;
+
+//         //  border:solid 2px white;
+
+//           justify-content:space-between;
+//         }
+//         .div21
+//         {
+//           position: relative;
+//           color:white;
+//           height: 60px;
+//           width: 750px;
+          
+//          background-color: black; 
+//          display:flex;
+//          border:solid 2px white;
+//          text-align: center;
+//          float: right;
+//          margin:10px;
+//           // justify-content:space-between;
+//           border-radius: 5px;
+
+//         }
+//       }
+      
+
+// }
+// .radio1
+// {
+//   color:white;
+//   font-size: 17px;
+//   float:left;
+//   display: block;
+
+// }
+// .buttons
+// {
+//   margin-Top:5px;
+//   float: left;
+//   display:flex;
+//   justify-content: space-between;
+
+
+// }
+// .buttonDistance
+// {
+//   color:white;
+//   margin-right: 20px;
+//   font-size: 20px;
+// }
+// .div2{
+//   height: 50pxp;
+//   width: 1200px;
+//   display:flex;
+//    justify-content:space-between;
+// }
+// .div20
+// {
+//   // position: relative;
+//   color: white;
+//   height:20px;
+//    width: 800px;
+//     background-color: "white"; 
+// }
